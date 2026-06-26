@@ -58,7 +58,7 @@ class Library:
                 f"No member found with ID '{member_id}'.")
         return self.members[member_id]
 
-    # ---- core borrowing workflow -------------------------------------
+    # ----  borrowing  ----
 
     def borrow_book(self, member_id, book_id):
         """Lend one copy of a book to a member.

@@ -1,2 +1,1 @@
-loan_id,isbn,member_id,date_borrowed,date_returned
-1,9780747532699,M001,2026-06-15,
+loan_id,book_id,member_id,date_borrowed,date_returned

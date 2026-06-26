@@ -1,12 +1,3 @@
-"""Command-line entry point for the library management system.
-
-Run with:  python main.py
-
-This module presents a simple text menu so a librarian can add books,
-register members, lend and return books, and view reports. All data is
-loaded from CSV files in the 'data' directory at start-up and written
-back when the user chooses to exit.
-"""
 
 from library import Library
 from models.book import Book
@@ -15,12 +6,12 @@ from exceptions import LibraryError
 
 
 def prompt(message):
-    """Ask the user for input and strip surrounding whitespace."""
+    """Asking the user for the input and strip surrounding whitespace."""
     return input(message).strip()
 
 
 def add_book(library):
-    """Collect book details from the user and add them to the library."""
+    """Collecting book details and adding them to the library."""
     book_id = prompt("book_id: ")
     title = prompt("Title: ")
     author = prompt("Author: ")
@@ -37,7 +28,7 @@ def add_book(library):
 
 
 def register_member(library):
-    """Collect member details from the user and register them."""
+    """Collecting member details and registering them."""
     member_id = prompt("Member ID: ")
     name = prompt("Name: ")
     email = prompt("Email: ")
@@ -46,7 +37,7 @@ def register_member(library):
 
 
 def borrow_book(library):
-    """Lend a book to a member, reporting any rule violations."""
+    """Lending a book to a member, reporting any rule violations."""
     member_id = prompt("Member ID: ")
     book_id = prompt("book_id: ")
     try:
@@ -80,7 +71,7 @@ def list_books(library):
 
 
 def list_members(library):
-    """Print every registered member."""
+    """Print() every registered member."""
     members = library.list_members()
     if not members:
         print("There are no members yet.\n")
