@@ -35,8 +35,8 @@ Example Usage
 8. Save and exit
 
 Choose an option (1-8): 3
-Member ID: M002
-book_id : 9780140328721
+Member ID: 1
+book_id : 1
 Done. Due back on 2026-07-09.
 
 
@@ -44,7 +44,7 @@ If a rule is broken the program explains why instead of crashing:
 Choose an option (1-8): 3
 Member ID: 2
 Book_id : 1
-Could not lend book: No copies of 'python proj1' are available.
+Could not lend book: No copies of 'pytho proj' are available.
 
 
 Key Features:
