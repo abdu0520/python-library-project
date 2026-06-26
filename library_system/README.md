@@ -42,9 +42,9 @@ Done. Due back on 2026-07-09.
 
 If a rule is broken the program explains why instead of crashing:
 Choose an option (1-8): 3
-Member ID: M002
-Book_id : 9780747532699
-Could not lend book: No copies of 'Harry Potter and the Philosopher's Stone' are available.
+Member ID: 2
+Book_id : 1
+Could not lend book: No copies of 'python proj1' are available.
 
 
 Key Features:
