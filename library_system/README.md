@@ -67,3 +67,5 @@ Project Structure:
 | `models/loan.py`     | `Loan` class                                          |
 | `exceptions.py`      | Custom exception types                                |
 | `data/*.csv`         | Sample data (books, members, loans)                   |
+| `.gitignore`         | clear cache and unused data                           |
+| `.pdf file`          | project pdf report                                    |
